@@ -1,0 +1,45 @@
+#showQues {
+  display: none;
+}
+
+#showSetting {
+  display: flex;
+}
+
+.form-select {
+  border-radius: 0 !important;
+
+}
+
+
+.form-select:focus ,input:not(input[type="radio"]):focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+input:not(input[type="radio"]), button {
+  border-radius: 0 !important;
+  
+}
+
+.form-check-input:checked {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+
+button {
+  border-color: rgba(0, 0, 0, 0.25) !important;
+  color: rgba(0, 0, 0, 0.505) !important;
+}
+
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  color: white !important;
+  border-color:  rgba(0, 0, 0, 0.25) !;
+}
